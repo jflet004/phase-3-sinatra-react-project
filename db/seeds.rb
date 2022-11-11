@@ -7,4 +7,9 @@ s3 = Student.create(first_name: "Tahnee", last_name: "Freda", age: 33, active: t
 s4 = Student.create(first_name: "Luis", last_name: "Osorio", age: 24, active: true)
 s5 = Student.create(first_name: "Nadia", last_name: "Aponte", age: 23, active: true)
 
+#Program data
+p1 = Program.create(title: "Drama", teacher: "Evan Enderle")
+p2 = Program.create(title: "Piano", teacher: "Nick Del Valle")
+p3 = Program.create(title: "Guitar", teacher: "James Hober")
+
 puts "✅ Done seeding!"
