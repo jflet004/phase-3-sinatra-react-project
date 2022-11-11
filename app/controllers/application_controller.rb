@@ -7,5 +7,11 @@ class ApplicationController < Sinatra::Base
     students = Student.all
     students.to_json
   end
+  
+  get "/students/:id" do
+    student = Student.find(params[:id])
+    student.to_json
+  end
+
 
 end
