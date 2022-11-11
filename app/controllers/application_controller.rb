@@ -42,5 +42,8 @@ class ApplicationController < Sinatra::Base
     program.to_json(include: :students)
   end
 
-
+  post "/programs" do
+    program = Program.create(title: params[:title], teacher: params[:teacher])
+    program.to_json
+  end
 end
