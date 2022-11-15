@@ -1,6 +1,6 @@
 ### Description
 
-Sinatra API backend of my SchooRostr application. You view, enroll, update and delete both students and programs; as well as being able to view which programs each student is currently enrolled in and vice-versa.  
+Sinatra API backend of my SchoolRostr application. You can view, enroll, update and delete both students and programs; as well as being able to view which programs each student is currently enrolled in and vice-versa.  
 
 ### Backend Setup
 
