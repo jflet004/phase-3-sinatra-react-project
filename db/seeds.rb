@@ -22,6 +22,8 @@ Registration.create(program_id: p1.id, student_id: s3.id)
 Registration.create(program_id: p2.id, student_id: s4.id)
 Registration.create(program_id: p2.id, student_id: s5.id)
 Registration.create(program_id: p3.id, student_id: s4.id)
+Registration.create(program_id: p3.id, student_id: s1.id)
+Registration.create(program_id: p3.id, student_id: s2.id)
 
 puts "✅ Done seeding!"
 
