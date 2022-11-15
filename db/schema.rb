@@ -10,6 +10,8 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+# % bundle exec rake db:create_migration NAME=create_students
+
 ActiveRecord::Schema.define(version: 2022_11_11_184544) do
 
   create_table "programs", force: :cascade do |t|
