@@ -5,7 +5,8 @@ class Program < ActiveRecord::Base
   def add_student(student)
     self.students << student
   end
-  
+
+
 end
 
 

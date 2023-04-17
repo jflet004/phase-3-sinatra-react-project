@@ -42,8 +42,7 @@ class ApplicationController < Sinatra::Base
 
   get "/programs/:id" do
     program = Program.find(params[:id])
-    # students = program.students
-    program.to_json(include: :students)
+    program.to_json(include: {students: {only: [:id, :first_name, :last_name]}} )
   end
 
   get "/programs/:id/students" do

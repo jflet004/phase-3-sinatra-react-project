@@ -1,6 +1,6 @@
 ### Description
 
-Sinatra API backend of my SchoolRostr application. My React frontend repository can be found [here](https://github.com/jflet004/phase-3-project-frontend) You can view, enroll, update and delete both students and programs; as well as being able to view which programs each student is currently enrolled in and vice-versa.  
+Sinatra API backend of my Rostr application. My React frontend repository can be found [here](https://github.com/jflet004/rostr-frontend) You can view, enroll, update and delete both students and programs; as well as being able to view which programs each student is currently enrolled in and vice-versa.  
 
 ### Backend Setup
 
